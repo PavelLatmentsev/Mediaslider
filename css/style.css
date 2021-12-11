@@ -1,75 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: "Varta", "Merriweather", sans-serif;
+  margin: 0;
+  font-style: normal;
+  }
+
+h1,
+h2,
+h3,
+h4,
+p {
     margin: 0;
-    padding: 50px;
-    font: 16px/1.5 sans-serif;
-    color: #000000;
-    background-color: #c3c3c3;
-  }
-  
-  .avatar {
-    width: 50px;
-    border-radius: 50%;
-  }
-  
-  .contact {
-    display: flex;
-    align-items: center;
-    padding: 0 1rem;
-    background-color: #673ab7;
-    width: 420px;
-  }
-  
-  .contact-body {
-    padding: 1.5rem;
-  }
-  
-  .contact-title {
-    display: flex;
-  }
-  
-  .contact-name {
-    font-weight: 700;
-  }
-  
-  .contact-time {
-    margin-left: auto;
-    font-size: 1rem;
-  }
-  
-  .contact-message {
-    margin: 0;
-    font-size: 1rem;
-  }
-
-  .contact-name {
-	white-space: nowrap;
 }
 
-.contact-message {
-	white-space: nowrap;
+.box{
+  padding: 70px;
 }
 
-.contact-body {
-	overflow-x: hidden;
+.boxtopleft h3 {
+font-family: "Merriweather";
+font-weight: 300;
+font-size: 35px;
+line-height: 40px;
+color: #121212;
+letter-spacing: -0.3px;
 }
 
-.contact-name {
-	overflow-x: hidden;
+.boxtopleft p {
+
+font-family: "Varta";
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: rgba(112, 100, 88, 0.9);
+margin-top: 15px;
 }
 
-.contact-message {
-	overflow-x: hidden;
+.boxtopleft a {
+letter-spacing: 0.3px;
+
+font-weight: bold;
+font-size: 17px;
+display: inline-block;
+color: #A06056;
+text-decoration: none;
+margin-top: 10px;
+margin-bottom: 64px;
 }
 
-.contact-name {
-    padding-right: 10px; /* добавим правый внутренний отступ для красоты */
-    text-overflow: ellipsis;
-  }
-  
-  .contact-message {
-    text-overflow: ellipsis;
-  }
-  
-  .contact-body {
-    overflow-x: hidden;
+img {
+  max-width: 100%;
+  vertical-align: middle;
 }
+
+.boxtopright {
+ display: flex;
+ justify-content: flex-end;
+}
+
+.boxtopright_form {
+
+  background: rgba(243, 238, 232, 0.3);
+  border-radius: 1px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #121212;
+  padding: 15px;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  width: 296px;
+  margin-right: 16px;
+
+}
+
+.boxtopright_but {
+  padding: 12px 29px;
+  background: #534B42;
+border-radius: 1px;
+font-weight: bold;
+font-size: 17px;
+line-height: 25px;
+color: #FFFFFF;
+text-align: center;
+letter-spacing: 0.3px;
+cursor: pointer;
+border: 0;
+}
+
+
+.description {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+}
+
+
+.keen {
+  font-weight: normal;
+  font-size: 18px;
+  color: #706458;
+}
+
+
+
+.sliderbox {
+  margin-bottom: 40px;
+}
+
+.slider-item {
+  margin:0 15px;
+}
+.slider-box:nth-child(3)
+
+{
+  position: relative;
+  left: 10px;
+  width:150% ;
+}
+
+.slick-arrow {
+  top: calc(100% + 40px);
+}
+
+.slick-prev {
+  left: 68%;
+}
+
+.slick-next {
+  left: 73%;
+}
+
+.slick-prev, .slick-next {
+
+  border-radius:100%;
+  border: 2px solid #A06056;;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev:before {
+  content: url('../img/Buttonleft.svg');
+}
+
+.slick-next:before {
+  content: url('../img/Buttonright.svg');
+}
+
+

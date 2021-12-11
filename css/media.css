@@ -1,0 +1,135 @@
+@media (max-width:768px) {
+   
+    .slick-next {
+      left: 80%;
+    }
+    
+   .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 600px;
+  
+  }
+
+  .boxtopleft {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  }
+
+  .boxtopright {
+  justify-content: space-around;
+  margin-bottom: 40px;
+  }
+
+  .slick-arrow {
+  top: calc(100% + 65px);
+}
+
+.keen {
+    margin-top: 40px;
+}
+
+}
+ 
+  @media (max-width:375px)
+  {   
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+      
+    }
+    
+      .box {
+          padding: 48px 32px 48px 32px;
+      }
+
+      .sliderbox {
+          display:none;
+      }
+
+      .boxtopright {
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+
+      .boxtopright_form {
+        width: 311px;
+      }
+
+      .boxtopright_but {
+        margin-top: 16px;
+      }
+
+      .description {
+        font-family: "Merriweather";
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 64px;
+      }
+
+      .keen {
+        font-family: "Varta";
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        max-width: 311px;
+        margin-top: 20px;
+      }
+
+      .dropbox {
+          display:flex;
+          flex-direction: column;
+      }
+
+      .dropbox img {
+        max-width: 145px;
+      }
+
+      .dropbox_item {
+          display:flex;
+          flex-direction: column;
+      }
+
+      .mt-15 {
+          margin-top:15px;
+          color: #121212;
+          font-family: "Varta";
+          font-weight: bold;
+          font-size: 15px;
+          line-height: 20px;
+      }
+
+      .mt-20 {
+        margin-top:20px;
+    }
+
+      .flexwrappertop, .flexwrapperbottom {
+          display:flex;
+          justify-content: space-between;
+      }
+
+      .flexwrappertop {
+        margin-top:40px;
+        
+      }
+
+      .boxtopleft {
+        display:flex;
+        align-items:flex-start;
+       }
+       .boxtopleft h3 {
+       margin-bottom: 16px;
+       }
+       .boxtopleft p {
+        margin-top:0;
+        margin-bottom: 16px;
+       }
+       .boxtopleft a {
+         margin-top:0;
+         margin-bottom: 32px;
+       }
+        
+  }
