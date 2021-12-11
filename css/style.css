@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 50px;
+    font: 16px/1.5 sans-serif;
+    color: #000000;
+    background-color: #c3c3c3;
+  }
+  
+  .avatar {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #673ab7;
+    width: 420px;
+  }
+  
+  .contact-body {
+    padding: 1.5rem;
+  }
+  
+  .contact-title {
+    display: flex;
+  }
+  
+  .contact-name {
+    font-weight: 700;
+  }
+  
+  .contact-time {
+    margin-left: auto;
+    font-size: 1rem;
+  }
+  
+  .contact-message {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .contact-name {
+	white-space: nowrap;
+}
+
+.contact-message {
+	white-space: nowrap;
+}
+
+.contact-body {
+	overflow-x: hidden;
+}
+
+.contact-name {
+	overflow-x: hidden;
+}
+
+.contact-message {
+	overflow-x: hidden;
+}
+
+.contact-name {
+    padding-right: 10px; /* добавим правый внутренний отступ для красоты */
+    text-overflow: ellipsis;
+  }
+  
+  .contact-message {
+    text-overflow: ellipsis;
+  }
+  
+  .contact-body {
+    overflow-x: hidden;
+}
